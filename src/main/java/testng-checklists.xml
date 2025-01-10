@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="ILS Web Test Automation - Checklists" verbose="1">
+    <test name="Checklist tests">
+        <packages>
+            <package name="ru.intelogis.autotests.tests.checklists.planner_checklist.*"/>
+            <package name="ru.intelogis.autotests.tests.checklists.documents_checklist.*"/>
+            <package name="ru.intelogis.autotests.tests.checklists.tender_analytics_checklist.*"/>
+            <package name="ru.intelogis.autotests.tests.checklists.catalog_checklist.*"/>
+            <package name="ru.intelogis.autotests.tests.checklists.settings_checklist.*"/>
+            <package name="ru.intelogis.autotests.tests.checklists.transport_analytics_checklist.*"/>
+            <package name="ru.intelogis.autotests.tests.checklists.integration_checklist.*"/>
+        </packages>
+    </test>
+</suite>
